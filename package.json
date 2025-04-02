@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test": "_mocha --reporter spec",
+    "test-original": "./node_modules/.bin/_mocha --reporter spec",
+    "test-custom": "_mocha --reporter custom-test"
+  },
+  "dependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.3"
+  }
+}
